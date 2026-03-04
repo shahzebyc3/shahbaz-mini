@@ -1,0 +1,21 @@
+{
+    "name": "arslan-md-lite",
+    "description": "web bot",
+    "logo": "",
+    "repository": "https://github.com/Arslan-MD/Arslan-MD-Lite",
+    
+    "keywords": [
+    "Arslan-MD-Lite","Arslan-MD"
+    ],
+    
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
