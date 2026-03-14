@@ -19,7 +19,7 @@ module.exports = {
 🟢 .mode public  → sab use kar sakte hain  
 🔒 .mode private → sirf aap
 
-📌 Current mode: *${global.BOT_MODE}*`
+📌 Current mode: *${global.BOT_PUBLIC}*`
         );
       }
 
